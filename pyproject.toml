@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "vision-validator-node"
-version = "0.1.0"
+version = "0.2.0"
 description = "Vision Validator Node (reference implementation)"
-authors = ["Vision XXX <XXX@XXX>"]
+authors = ["Vision <contact@noemail.com>"]
 license = "GPL-3.0-only"
 readme = "README.md"
 packages = [
@@ -24,9 +24,7 @@ bandit = "1.8.3"
 flake8 = "7.2.0"
 isort = "6.0.1"
 mypy = "1.0.1"
-# mypy = "1.0.1"
 types-pyyaml = "6.0.12.20250402"
-types-requests = "2.32.0.20250328"
 yapf = "0.43.0"
 
 [tool.poetry.group.dev.dependencies]
@@ -45,7 +43,6 @@ marshmallow = "3.26.1"
 psycopg = {extras = ["binary", "pool"], version = "3.2.6"}
 PyYAML = "6.0.1"
 SQLAlchemy = "2.0.40"
-web3 = "6.5.0"
 JSON-log-formatter = "0.5.2"
 pyaml-env = "1.2.2"
 python-dotenv = "1.0.1"
